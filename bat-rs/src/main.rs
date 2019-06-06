@@ -10,8 +10,8 @@ fn main() {
 	let charge = string.parse::<i32>().unwrap();
 
 	if charge <= 25 {
-		print!("%B%F{{red}}{}%b%f ", charge);
+		print!("%B%F{{red}}{}%%%b%f ", charge);
 	} else if charge <= 50 {
-		print!("%B%F{{yellow}}{}%b%f ", charge);
+		print!("%B%F{{yellow}}{}%%%b%f ", charge);
 	}
 }
